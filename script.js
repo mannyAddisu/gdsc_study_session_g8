@@ -9,7 +9,7 @@
 //   return fact;
 // }
 // // console.log(factorial(5));
-/******today's task******/
+/******today's task(session 2)******/
 // function printOdd() {
 //   const end = prompt('Enter a number: ');
 //   for (let i = 0; i <= end; i++) {
@@ -20,21 +20,20 @@
 
 //Session 3
 /*********Counter *********/
-const increase = document.getElementById('increase');
-const decrease = document.getElementById('decrease');
+// const increase = document.getElementById('increase');
+// const decrease = document.getElementById('decrease');
 
-let click = true;
-let count = 0;
-increase.addEventListener('click', function () {
-  if (click) {
-    count += 1;
-    document.getElementById('count').innerHTML = count;
-  }
-});
-decrease.addEventListener('click', function () {
-  if (click) {
-    count -= 1;
-    document.getElementById('count').innerHTML = count;
-  }
-});
-let num1, num2, result;
+// let click = true;
+// let count = 0;
+// increase.addEventListener('click', function () {
+//   if (click) {
+//     count += 1;
+//     document.getElementById('count').innerHTML = count;
+//   }
+// });
+// decrease.addEventListener('click', function () {
+//   if (click) {
+//     count -= 1;
+//     document.getElementById('count').innerHTML = count;
+//   }
+// });
