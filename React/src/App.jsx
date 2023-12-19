@@ -1,20 +1,16 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-import Box from './Members';
-import Members from './Members';
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Box from "./Members";
+import Members from "./Members";
 
 function App() {
   const [count, setCount] = useState(0);
-  const data = {
-    name: 'Amanuel',
-    age: 21,
-  };
 
   return (
     <>
-      <Members sike={data} />
+      <Members />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
